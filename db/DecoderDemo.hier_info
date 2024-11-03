@@ -1,0 +1,125 @@
+|DecoderDemo2
+E1 => E1.IN1
+E0_L => E0_L.IN1
+X[0] => X[0].IN1
+X[1] => X[1].IN1
+X[2] => X[2].IN1
+X[3] => X[3].IN1
+Y[0] << Dec4_16:decoder_instance.Y
+Y[1] << Dec4_16:decoder_instance.Y
+Y[2] << Dec4_16:decoder_instance.Y
+Y[3] << Dec4_16:decoder_instance.Y
+Y[4] << Dec4_16:decoder_instance.Y
+Y[5] << Dec4_16:decoder_instance.Y
+Y[6] << Dec4_16:decoder_instance.Y
+Y[7] << Dec4_16:decoder_instance.Y
+Y[8] << Dec4_16:decoder_instance.Y
+Y[9] << Dec4_16:decoder_instance.Y
+Y[10] << Dec4_16:decoder_instance.Y
+Y[11] << Dec4_16:decoder_instance.Y
+Y[12] << Dec4_16:decoder_instance.Y
+Y[13] << Dec4_16:decoder_instance.Y
+Y[14] << Dec4_16:decoder_instance.Y
+Y[15] << Dec4_16:decoder_instance.Y
+
+
+|DecoderDemo2|Dec4_16:decoder_instance
+E1 => E1.IN1
+E0_L => E0_L.IN1
+X[0] => X[0].IN4
+X[1] => X[1].IN4
+X[2] => X[2].IN1
+X[3] => X[3].IN1
+Y[0] <= Dec2_4:low_decoder0.Y0
+Y[1] <= Dec2_4:low_decoder0.Y1
+Y[2] <= Dec2_4:low_decoder0.Y2
+Y[3] <= Dec2_4:low_decoder0.Y3
+Y[4] <= Dec2_4:low_decoder1.Y0
+Y[5] <= Dec2_4:low_decoder1.Y1
+Y[6] <= Dec2_4:low_decoder1.Y2
+Y[7] <= Dec2_4:low_decoder1.Y3
+Y[8] <= Dec2_4:low_decoder2.Y0
+Y[9] <= Dec2_4:low_decoder2.Y1
+Y[10] <= Dec2_4:low_decoder2.Y2
+Y[11] <= Dec2_4:low_decoder2.Y3
+Y[12] <= Dec2_4:low_decoder3.Y0
+Y[13] <= Dec2_4:low_decoder3.Y1
+Y[14] <= Dec2_4:low_decoder3.Y2
+Y[15] <= Dec2_4:low_decoder3.Y3
+
+
+|DecoderDemo2|Dec4_16:decoder_instance|Dec2_4:high_decoder
+E1 => Y3.IN0
+E0_L => Y3.IN1
+X1 => Y3.IN1
+X1 => Y1.IN1
+X0 => Y1.IN1
+X0 => Y3.IN1
+X0 => Y0.IN1
+X0 => Y2.IN1
+Y3 <= Y3.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DecoderDemo2|Dec4_16:decoder_instance|Dec2_4:low_decoder0
+E1 => Y3.IN0
+E0_L => Y3.IN1
+X1 => Y3.IN1
+X1 => Y1.IN1
+X0 => Y1.IN1
+X0 => Y3.IN1
+X0 => Y0.IN1
+X0 => Y2.IN1
+Y3 <= Y3.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DecoderDemo2|Dec4_16:decoder_instance|Dec2_4:low_decoder1
+E1 => Y3.IN0
+E0_L => Y3.IN1
+X1 => Y3.IN1
+X1 => Y1.IN1
+X0 => Y1.IN1
+X0 => Y3.IN1
+X0 => Y0.IN1
+X0 => Y2.IN1
+Y3 <= Y3.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DecoderDemo2|Dec4_16:decoder_instance|Dec2_4:low_decoder2
+E1 => Y3.IN0
+E0_L => Y3.IN1
+X1 => Y3.IN1
+X1 => Y1.IN1
+X0 => Y1.IN1
+X0 => Y3.IN1
+X0 => Y0.IN1
+X0 => Y2.IN1
+Y3 <= Y3.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DecoderDemo2|Dec4_16:decoder_instance|Dec2_4:low_decoder3
+E1 => Y3.IN0
+E0_L => Y3.IN1
+X1 => Y3.IN1
+X1 => Y1.IN1
+X0 => Y1.IN1
+X0 => Y3.IN1
+X0 => Y0.IN1
+X0 => Y2.IN1
+Y3 <= Y3.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+
+

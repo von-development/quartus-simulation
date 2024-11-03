@@ -1,0 +1,433 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/victo/OneDrive/future/ua_lessons/isd/QuartusProjects/simulation/qsim
+T_opt
+!s110 1730642568
+V]fYDzZOn6FUIG9n__jz2N1
+04 24 17 work decoderdemo3_vhd_vec_tst decoderdemo3_arch 1
+=1-f46add89d62f-67278287-1b2-745c
+Z2 !s124 OEM10U3 
+Z3 o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1730644378
+VlL`jNmDe_ZJIdR0iST8Lz1
+04 23 4 work DecoderDemo_vlg_vec_tst fast 0
+=1-f46add89d62f-6727899a-83-2994
+R2
+o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc
+R4
+n@_opt1
+R5
+T_opt2
+!s110 1730641999
+V35dP35VXUjiV_hXF:e>hb3
+04 24 17 work decoderdemo2_vhd_vec_tst decoderdemo2_arch 1
+=1-f46add89d62f-6727804f-a4-2054
+R2
+R3
+R4
+n@_opt2
+R5
+R1
+Edecoderdemo
+Z6 w1730635061
+Z7 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z8 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z9 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z11 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z12 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+!i122 0
+R1
+Z13 8DecoderDemo.vho
+Z14 FDecoderDemo.vho
+l0
+Z15 L78 1
+VHd_7hJB=GMedaP6=9T4890
+!s100 P_F;ghk<GPRCNMO15R0c_0
+Z16 OL;C;2021.2;73
+32
+Z17 !s110 1730635064
+!i10b 1
+Z18 !s108 1730635064.000000
+Z19 !s90 -work|work|DecoderDemo.vho|
+Z20 !s107 DecoderDemo.vho|
+!i113 0
+Z21 o-work work
+Z22 tExplicit 1 CvgOpt 0
+Astructure
+R7
+R8
+R9
+R10
+R11
+R12
+DEx4 work 11 decoderdemo 0 22 Hd_7hJB=GMedaP6=9T4890
+!i122 0
+l140
+L102 225
+Vb;nU:a2aN1<gn@62i@`Ah2
+!s100 i;j;E]m09^=N12UVbj_dB1
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+vDecoderDemo
+Z23 !s110 1730636579
+!i10b 1
+!s100 dGQ;f82YO=<3`?G;L`6JR3
+I6G7nZ2N8=`Tc?8l?EB7M72
+R1
+w1730636577
+Z24 8DecoderDemo.vo
+Z25 FDecoderDemo.vo
+!i122 4
+L0 32 228
+Z26 VDg1SIo80bB@j0V0VzS_@n1
+Z27 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z28 !s108 1730636579.000000
+Z29 !s107 DecoderDemo.vo|
+Z30 !s90 -work|work|DecoderDemo.vo|
+!i113 0
+Z31 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@decoder@demo
+Edecoderdemo2
+Z32 w1730641994
+R7
+R8
+R9
+R10
+R11
+R12
+!i122 6
+R1
+R13
+R14
+l0
+R15
+VVEnWdF<`KVgJFn;N00mIA0
+!s100 0PUA`SP_<]HjmZZUlBaM@3
+R16
+32
+Z33 !s110 1730641998
+!i10b 1
+Z34 !s108 1730641997.000000
+R19
+R20
+!i113 0
+R21
+R22
+Astructure
+R7
+R8
+R9
+R10
+R11
+R12
+DEx4 work 12 decoderdemo2 0 22 VEnWdF<`KVgJFn;N00mIA0
+!i122 6
+l175
+L112 682
+V^hDaDLz9XELd98F8hmMF92
+!s100 lV[Ff_@A[E32T[mid77:c3
+R16
+32
+R33
+!i10b 1
+R34
+R19
+R20
+!i113 0
+R21
+R22
+Edecoderdemo2_vhd_vec_tst
+Z35 w1730641993
+R10
+R11
+!i122 7
+R1
+Z36 8DecoderDemo2.vwf.vht
+Z37 FDecoderDemo2.vwf.vht
+l0
+Z38 L32 1
+VB;6z>[;2Bn7X1amoFh]112
+!s100 n:f0>F4aES?ZCW?`<e^LF3
+R16
+32
+R33
+!i10b 1
+Z39 !s108 1730641998.000000
+Z40 !s90 -work|work|DecoderDemo2.vwf.vht|
+Z41 !s107 DecoderDemo2.vwf.vht|
+!i113 0
+R21
+R22
+Adecoderdemo2_arch
+R10
+R11
+DEx4 work 24 decoderdemo2_vhd_vec_tst 0 22 B;6z>[;2Bn7X1amoFh]112
+!i122 7
+l49
+L34 83
+VK;2eXH`d0j7dZo<8`O=Y90
+!s100 B6?IeIQ^E;R[^KBbB;>JG3
+R16
+32
+R33
+!i10b 1
+R39
+R40
+R41
+!i113 0
+R21
+R22
+Edecoderdemo3
+Z42 w1730642564
+R7
+R8
+R9
+R10
+R11
+R12
+!i122 8
+R1
+R13
+R14
+l0
+R15
+VX6IabbI>YYCLlBlkidQU?0
+!s100 ;C`C`gOflY;e94<`dYDfB2
+R16
+32
+Z43 !s110 1730642566
+!i10b 1
+Z44 !s108 1730642566.000000
+R19
+R20
+!i113 0
+R21
+R22
+Astructure
+R7
+R8
+R9
+R10
+R11
+R12
+DEx4 work 12 decoderdemo3 0 22 X6IabbI>YYCLlBlkidQU?0
+!i122 8
+l124
+L96 102
+VU0D^ISaHaaI987P?ojg^P0
+!s100 jaObEXeDNe@2DPRlOMlGV0
+R16
+32
+R43
+!i10b 1
+R44
+R19
+R20
+!i113 0
+R21
+R22
+vDecoderDemo3
+Z45 !s110 1730644377
+!i10b 1
+!s100 >]Eojj?ZHzT0BF_boG7IS2
+I46o=<VSg;6?oXIcZ@:BC92
+R1
+Z46 w1730644375
+R24
+R25
+!i122 10
+L0 32 99
+R26
+R27
+r1
+!s85 0
+31
+Z47 !s108 1730644377.000000
+R29
+R30
+!i113 0
+R31
+R4
+n@decoder@demo3
+Edecoderdemo3_vhd_vec_tst
+Z48 w1730642563
+R10
+R11
+!i122 9
+R1
+Z49 8DecoderDemo3.vwf.vht
+Z50 FDecoderDemo3.vwf.vht
+l0
+R38
+VKAWA5O3OFX[le:CoNCPXV0
+!s100 7bAh?ffc^Y]Gk>cT316_U0
+R16
+32
+R43
+!i10b 1
+R44
+Z51 !s90 -work|work|DecoderDemo3.vwf.vht|
+Z52 !s107 DecoderDemo3.vwf.vht|
+!i113 0
+R21
+R22
+Adecoderdemo3_arch
+R10
+R11
+DEx4 work 24 decoderdemo3_vhd_vec_tst 0 22 KAWA5O3OFX[le:CoNCPXV0
+!i122 9
+l51
+L34 80
+VKhZ0BgEP8X=EDA^F<b;Im1
+!s100 JNRfeAOMF3?dQOYcj31mz1
+R16
+32
+R43
+!i10b 1
+R44
+R51
+R52
+!i113 0
+R21
+R22
+vDecoderDemo3_vlg_vec_tst
+R45
+!i10b 1
+!s100 LZ@2E8aTQVdY[U3?QooOL3
+Im4JUX:G3o@WLI3V6f;8??1
+R1
+w1730644374
+Z53 8DecoderDemo.vwf.vt
+Z54 FDecoderDemo.vwf.vt
+!i122 11
+L0 30 24
+R26
+R27
+r1
+!s85 0
+31
+R47
+Z55 !s107 DecoderDemo.vwf.vt|
+Z56 !s90 -work|work|DecoderDemo.vwf.vt|
+!i113 0
+R31
+R4
+n@decoder@demo3_vlg_vec_tst
+Edecoderdemo_vhd_vec_tst
+Z57 w1730635059
+R10
+R11
+!i122 1
+R1
+Z58 8DecoderDemo.vwf.vht
+Z59 FDecoderDemo.vwf.vht
+l0
+R38
+Vd9iUlR6kHF^?PaoACbXf03
+!s100 8@I99EZD:dO:9]SNh<aJ93
+R16
+32
+Z60 !s110 1730635065
+!i10b 1
+R18
+Z61 !s90 -work|work|DecoderDemo.vwf.vht|
+Z62 !s107 DecoderDemo.vwf.vht|
+!i113 0
+R21
+R22
+Adecoderdemo_arch
+R10
+R11
+DEx4 work 23 decoderdemo_vhd_vec_tst 0 22 d9iUlR6kHF^?PaoACbXf03
+!i122 1
+l57
+L34 75
+VI`ZOc:0LjedVkTPUTCo>G1
+!s100 ER09i8C9e<YSjVjX5:eQ12
+R16
+32
+R60
+!i10b 1
+R18
+R61
+R62
+!i113 0
+R21
+R22
+vDecoderDemo_vlg_vec_tst
+R23
+!i10b 1
+!s100 ao:YUzG@M>]I=@M_Jc;P;3
+I:C1LVC03cJjz<>3:j;VI10
+R1
+w1730636576
+R53
+R54
+!i122 5
+L0 30 58
+R26
+R27
+r1
+!s85 0
+31
+R28
+R55
+R56
+!i113 0
+R31
+R4
+n@decoder@demo_vlg_vec_tst
+vhard_block
+R45
+!i10b 1
+!s100 G[Rb^SaF@i9C^L6O^kPZD0
+IVYE1PC`]fO0_T:j7g]cD62
+R1
+R46
+R24
+R25
+!i122 10
+L0 132 34
+R26
+R27
+r1
+!s85 0
+31
+R47
+R29
+R30
+!i113 0
+R31
+R4

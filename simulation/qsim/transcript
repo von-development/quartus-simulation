@@ -1,0 +1,54 @@
+# do DecoderDemo.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 14:32:57 on Nov 03,2024
+# vlog -work work DecoderDemo.vo 
+# -- Compiling module DecoderDemo3
+# -- Compiling module hard_block
+# ** Warning: DecoderDemo.vo(132): (vlog-13233) Design unit "hard_block" already exists and will be overwritten. Overwriting a VHDL entity with a Verilog module.
+# 
+# Top level modules:
+# 	DecoderDemo3
+# End time: 14:32:57 on Nov 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 14:32:57 on Nov 03,2024
+# vlog -work work DecoderDemo.vwf.vt 
+# -- Compiling module DecoderDemo3_vlg_vec_tst
+# 
+# Top level modules:
+# 	DecoderDemo3_vlg_vec_tst
+# End time: 14:32:57 on Nov 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.DecoderDemo_vlg_vec_tst 
+# Start time: 14:32:57 on Nov 03,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.DecoderDemo_vlg_vec_tst(fast)
+# Loading work.DecoderDemo(fast)
+# Loading work.hard_block(fast)
+# Loading cycloneive_ver.cycloneive_io_obuf(fast)
+# Loading cycloneive_ver.cycloneive_io_ibuf(fast)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__1)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__2)
+# Loading cycloneive_ver.cycloneive_lcell_comb(fast__3)
+# after#28
+# ** Note: $finish    : DecoderDemo.vwf.vt(57)
+#    Time: 80 ns  Iteration: 0  Instance: /DecoderDemo_vlg_vec_tst
+# End time: 14:32:59 on Nov 03,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
